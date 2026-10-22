@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f3eb">
+    <meta name="description" content="Pahuway Café is your cozy Cebu City corner for good coffee, local flavors, and a little room to slow down.">
+    <title>Pahuway Café — Hinay-hinay lang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="announcement">
+      <span>Maayong adlaw, Cebu!</span>
+      <span class="announcement-note">A little pause, brewed just for you.</span>
+      <a href="#visit">Find your way here <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Pahuway Café home">
+        <span class="brand-mark" aria-hidden="true">p</span>
+        <span class="brand-name">pahuway<span>café</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#menu">The menu</a>
+        <a href="#story">Our story</a>
+        <a href="#visit">Find us</a>
+        <a class="nav-cta" href="#menu">Grab a cup <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> YOUR LITTLE CORNER IN CEBU</p>
+          <h1>Take a little<br><em>pahuway.</em></h1>
+          <p class="hero-description">Good coffee, something delicious, and nowhere else you need to be. Your Cebu kind of slow-down starts here.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#menu">Explore the menu <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#story">Get to know us <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-asterisk" aria-hidden="true">✳</span>
+            <span><strong>Hinay-hinay lang.</strong><br>Take it easy. You're right on time.</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85" alt="A warmly lit neighborhood café with a welcoming counter">
+          </div>
+          <div class="photo-stamp" aria-label="Made with heart in Cebu">
+            <span>MADE WITH HEART</span>
+            <strong>♡</strong>
+            <span>IN CEBU</span>
+          </div>
+          <div class="photo-caption"><span class="caption-dot"></span> Your seat is waiting.</div>
+        </div>
+        <div class="hero-bottom">
+          <span>COFFEE · COMFORT · CEBU</span>
+          <a href="#menu">SCROLL A LITTLE <span aria-hidden="true">↓</span></a>
+          <span>10°18' N &nbsp; 123°54' E</span>
+        </div>
+      </section>
+
+      <section class="menu-section section-pad" id="menu">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> A FEW HOUSE FAVORITES</p>
+            <h2>Made for your <em>moment.</em></h2>
+          </div>
+          <p class="section-intro">From your first sip to that “one more bite” — there’s a little something for every kind of pause.</p>
+        </div>
+        <div class="menu-grid">
+          <a class="menu-card" href="#item-hometown-latte" data-menu-item="hometown-latte" data-price="160" data-details="A balanced double espresso with silky steamed milk and a smooth, chocolatey finish. Made for slow mornings and familiar comforts." data-ingredients="Espresso · fresh milk">
+            <div class="menu-image coffee-image">
+              <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80" alt="Freshly made latte with delicate milk foam">
+              <span class="menu-number">01</span>
+              <span class="card-open-hint">View favorite <span aria-hidden="true">↗</span></span>
+            </div>
+            <div class="menu-card-copy">
+              <div class="menu-title-row"><h3>Hometown latte</h3><span>₱ 160</span></div>
+              <p>Espresso, silky milk, and a little taste of home.</p>
+              <span class="menu-tag">BARISTA FAVORITE</span>
+            </div>
+          </a>
+          <a class="menu-card" href="#item-ube-cheese-pandesal" data-menu-item="ube-cheese-pandesal" data-price="95" data-details="A soft, freshly baked pandesal with creamy ube and a gooey cheese center. A Cebu café comfort, best served warm." data-ingredients="Flour · ube · cheese · milk">
+            <div class="menu-image pastry-image">
+              <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=900&q=80" alt="Golden flaky pastries fresh from the oven">
+              <span class="menu-number">02</span>
+              <span class="card-open-hint">View favorite <span aria-hidden="true">↗</span></span>
+            </div>
+            <div class="menu-card-copy">
+              <div class="menu-title-row"><h3>Ube cheese pandesal</h3><span>₱ 95</span></div>
+              <p>Soft, savory, a little sweet. Best enjoyed warm.</p>
+              <span class="menu-tag">BAKED WITH LOVE</span>
+            </div>
+          </a>
+          <a class="menu-card" href="#item-cold-brew" data-menu-item="cold-brew" data-price="175" data-details="Our coffee steeps low and slow overnight for a mellow, naturally sweet brew. Served chilled over ice." data-ingredients="Slow-steeped coffee · filtered water · ice">
+            <div class="menu-image brew-image">
+              <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80" alt="A refreshing iced coffee served in a clear glass">
+              <span class="menu-number">03</span>
+              <span class="card-open-hint">View favorite <span aria-hidden="true">↗</span></span>
+            </div>
+            <div class="menu-card-copy">
+              <div class="menu-title-row"><h3>Cold brew sa buntag</h3><span>₱ 175</span></div>
+              <p>Slow-steeped overnight for a smooth Cebu morning.</p>
+              <span class="menu-tag">SLOW & STEADY</span>
+            </div>
+          </a>
+        </div>
+        <div class="menu-footer">
+          <span>Good things are made slowly.</span>
+          <div class="menu-footer-actions">
+            <button class="bag-button" type="button" id="open-bag">Your bag <span class="bag-count" id="bag-count">0</span></button>
+            <a class="text-link" href="#visit">Come try a favorite <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <dialog class="item-dialog" id="item-dialog" aria-labelledby="item-title">
+        <div class="dialog-topbar">
+          <button class="back-button" type="button" data-close-item><span aria-hidden="true">←</span> Back to menu</button>
+          <button class="icon-button" type="button" aria-label="Close item details" data-close-item>×</button>
+        </div>
+        <div class="item-detail-content" id="item-detail-content"></div>
+      </dialog>
+      <dialog class="photo-dialog" id="photo-dialog" aria-label="Menu item photo">
+        <div class="photo-dialog-toolbar">
+          <span id="photo-caption">Pahuway Café favorite</span>
+          <div>
+            <button class="photo-control" type="button" id="photo-zoom" aria-label="Zoom in on photo">＋</button>
+            <button class="photo-control" type="button" id="photo-close" aria-label="Close photo">×</button>
+          </div>
+        </div>
+        <img class="photo-dialog-image" id="photo-dialog-image" alt="">
+        <p class="photo-dialog-hint">Click outside or press Escape to go back</p>
+      </dialog>
+      <dialog class="bag-dialog" id="bag-dialog" aria-labelledby="bag-title">
+        <div class="dialog-topbar">
+          <span class="dialog-kicker">A LITTLE SOMETHING FOR YOU</span>
+          <button class="icon-button" type="button" aria-label="Close your bag" data-close-bag>×</button>
+        </div>
+        <div class="bag-content">
+          <h2 id="bag-title">Your <em>bag.</em></h2>
+          <div id="bag-items"></div>
+          <p class="bag-total" id="bag-total"></p>
+          <p class="bag-note">This is a sample order request; we’ll confirm availability by email.</p>
+          <a class="button button-dark bag-checkout" id="bag-checkout" href="#">Send order request <span aria-hidden="true">↗</span></a>
+        </div>
+      </dialog>
+      <p class="sr-only" id="order-status" aria-live="polite"></p>
+
+      <section class="story-section" id="story">
+        <div class="story-image">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1200&q=85" alt="A barista carefully pouring coffee in a cozy café">
+          <span class="story-image-label">A SLOWER KIND OF GOOD</span>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> FROM OUR LITTLE CORNER</p>
+          <h2>More than coffee.<br><em>A feeling.</em></h2>
+          <p>“Pahuway” means to rest, to take a breather. We made this place for the in-between moments — the catch-ups that run long, the quiet mornings, and the days that ask you to slow down.</p>
+          <p>Rooted in Cebu, poured with care. Pull up a chair; we saved you the good spot.</p>
+          <a class="text-link" href="#visit">Come say maayong adlaw <span aria-hidden="true">→</span></a>
+          <span class="story-doodle" aria-hidden="true">✳</span>
+        </div>
+      </section>
+
+      <section class="visit-section section-pad" id="visit">
+        <div class="visit-top">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> THERE'S A CUP WITH YOUR NAME ON IT</p>
+            <h2>See you <em>soon?</em></h2>
+          </div>
+          <a class="button button-light" href="https://maps.google.com/?q=Cebu+City+Philippines" target="_blank" rel="noreferrer">Get directions <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="visit-details">
+          <div><span class="detail-label">COME FIND US</span><p>Somewhere lovely in Cebu City<br><span>Cebu, Philippines</span></p></div>
+          <div><span class="detail-label">WHEN WE'RE HERE</span><p>Every day, 8:00 am – 8:00 pm<br><span>Come as you are.</span></p></div>
+          <div><span class="detail-label">SAY HELLO</span><p><a href="mailto:hello@pahuwaycafe.ph">hello@pahuwaycafe.ph</a><br><span>@pahuway.cafe</span></p></div>
+        </div>
+        <div class="visit-bottom"><span>Hinay-hinay lang. Take it easy.</span><span>MADE WITH ♥ IN CEBU</span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#home" aria-label="Pahuway Café home"><span class="brand-mark" aria-hidden="true">p</span><span class="brand-name">pahuway<span>café</span></span></a>
+      <span>© 2026 Pahuway Café. Made for the moments in between.</span>
+      <a href="#home">Back to top ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
